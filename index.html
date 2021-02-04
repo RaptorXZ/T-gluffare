@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Train Hobo Express</title>
 </head>
 <body>
     <main>
-        <h1>Tågluffare Linjen</h1>
+        <h1>Train Hobo Express</h1>
         <form>
             <section>
-                <h3 class="small">Personlig Information</h3>
+                <h3 class="small">Personal Information</h3>
                 <article class="form-control">
-                    <label for="name">Namn</label>
+                    <label for="name">Name</label>
                     <input type="text" name="name" id="name" placeholder="John Doe"
                     required>
                 </article>
@@ -37,8 +37,12 @@
                     <label for="date">When are you returning?</label>
                     <input type="date" name="return" id="return" required>
                 </article>
-                <button type="submit" class="btn">Let's go!</button>
+                <article class="form-control">
+                    <label for="checkbox" class="inline">Are you travelling alone?</label>
+                    <input type="checkbox" name="alone" id="alone">
+                </article>
             </section>
+            <button type="submit" class="btn">Let's go!</button>
         </form>
     </main>
 </body>
