@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Potta+One&display=swap');
+
+header {
+    background-color: rgb(27, 27, 27);
+    color: #f5f6fa;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 10vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
 main {
-    background-color: #f5f6fa;
+    background-color: rgb(27, 27, 27);
+    color: #f5f6fa;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     font-family: 'Open Sans', sans-serif;
 }
 
